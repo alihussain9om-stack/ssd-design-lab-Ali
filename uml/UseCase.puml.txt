@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+
+actor Student
+
+rectangle "Course Registration System" {
+  usecase "Register Course" as UC1
+}
+
+Student --> UC1
+@enduml

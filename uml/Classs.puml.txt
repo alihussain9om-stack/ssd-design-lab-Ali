@@ -1,0 +1,16 @@
+@startuml
+class Student {
+  studentID
+  name
+}
+
+class Course {
+  courseCode
+  courseName
+}
+
+class Association {
+  enrollmentID
+  semester
+}
+@enduml
